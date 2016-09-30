@@ -24,6 +24,7 @@ var phonelist = helper.phoneextractor("I am moving to hyderabad and my mobile nu
 var email = helper.emailextractor("I am moving to US and my email id is  shunandi@gmail.com, You can also email me at shubhradeepnandi@gmail.com");
 
 var invoiceno = helper.extractor("<Extracting What>", "Your invoice is generated it is inv1105576", <REGEX STRING>);
+```
 
 ### Limitations
 This software cannot capture every single combination imaginable. Especially number-to-letter substitution is difficult to detect e.g:
@@ -32,7 +33,7 @@ This software cannot capture every single combination imaginable. Especially num
 In my experience very few users write their phone number this way. From a programming point of view it would be possible to cover for edge cases like above, but I have chosen not to.
 
 ### Issues, bug reports
-shunandi@gmail.com
+https://github.com/ShubhradeepNandi/watsonhelper/issues
 
 ### License
-https://spdx.org/licenses/Apache-2.0
+http://www.apache.org/licenses/LICENSE-2.0
